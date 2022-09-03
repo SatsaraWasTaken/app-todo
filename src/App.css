@@ -1,0 +1,71 @@
+
+body {
+  background-color: black;
+  color: white;
+}
+.App {
+  text-align: center;
+}
+
+.toDo-template {
+  background-color: #555;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 10px 140px 10px 15px;
+  text-align: left;
+  font-size: 22px;
+  position: relative;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.toDo-template .done .toDo-text {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+
+.icons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: auto;
+  display: inline-block;
+}
+
+.toDo-template .icons span {
+  display: inline-block;
+  margin: 0px 1px 0px 10px;
+  cursor: pointer;
+  color: #00ff89;
+}
+
+.toDo-template .icons span:hover {
+  color: yellow;
+}
+
+/* 
+span > #Pen {
+  color: lightskyblue;
+  
+}
+
+span > #Pen:hover {
+  color: pink;
+  
+}
+
+span > #Trash-can {
+  color: rgb(216, 26, 26);
+} 
+
+these aren't working.
+*/
+
+.row {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.btn-warning {
+  margin-left: 10px;
+}
